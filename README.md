@@ -93,7 +93,7 @@ Projek ini adalah Sistem Informasi Akademik berbasis Laravel sebagai tugas proye
 ## 🚀 Panduan Instalasi
 1. Clone repository:
    ```bash
-   git clone https://github.com/nama-akun/project-siakad.git
+   git clone https://github.com/nama-akun/Siakad.git
    cd siakad
 
 2. Pilih branch sesuai kelompok:
