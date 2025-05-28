@@ -114,3 +114,25 @@ Projek ini adalah Sistem Informasi Akademik berbasis Laravel sebagai tugas proye
    ```bash
    git clone https://github.com/nama-akun/project-siakad.git
    cd siakad
+
+2. Masuk ke branch sesuai klompok:
+    # Untuk Kelompok Akademik
+    git checkout feature/akademik
+    
+    # Untuk Kelompok Mahasiswa
+    git checkout feature/mahasiswa
+    
+    # Untuk Kelompok Dosen
+    git checkout feature/dosen
+    
+    # Untuk Kelompok Marketing
+    git checkout feature/marketing
+    
+    # Untuk Kelompok Prodi dan Keuangan
+    git checkout feature/prodi-keuangan
+
+3. Install dependency Laravel:
+    composer install
+    npm install && npm run dev
+    cp .env.example .env
+    php artisan key:generate
